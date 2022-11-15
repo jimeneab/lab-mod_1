@@ -1,0 +1,5 @@
+FROM node:12.18.1
+
+WORKDIR /src
+
+RUN node src/index.js
